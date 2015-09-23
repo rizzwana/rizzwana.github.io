@@ -211,8 +211,14 @@ $colorBlue: #337ab7;
 	padding-bottom: 5px;
 	color: #FFF ;
 	box-shadow: 3px -3px 3px;	
+	
+	& span{
+		vertical-align: top;
+		color:#333;	
+	}
+	
+	& a{
+		color: #CCC;
+	}
 }
 
-.botNav span{
-	vertical-align: top;
-}

@@ -246,6 +246,8 @@ ul.alert-dropdown {
   padding-bottom: 5px;
   color: white;
   box-shadow: 3px -3px 3px; }
-
-.botNav span {
-  vertical-align: top; }
+  .botNav span {
+    vertical-align: top;
+    color: #333; }
+  .botNav a {
+    color: #CCC; }
