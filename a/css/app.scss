@@ -1,0 +1,218 @@
+/* Global Styles */
+
+body {
+	margin-top: 100px;
+}
+
+@media(min-width:768px) {
+	body {
+		margin-top: 50px;
+	}
+}
+
+#wrapper {
+	padding-left: 0;
+}
+
+#page-wrapper {
+	width: 100%;
+	padding: 0;
+	background-color: #fff;
+}
+
+.huge {
+	font-size: 26px;
+	line-height: 1.6em;
+}
+
+@media(min-width:768px) {
+	#wrapper {
+		padding-left: 225px;
+	}
+	#page-wrapper {
+		padding: 10px;
+	}
+}
+/* Top Navigation */
+
+.top-nav {
+	padding: 0 15px;
+}
+
+.top-nav>li {
+	display: inline-block;
+	float: left;
+}
+
+.top-nav>li>a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	color: #FFF;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+	color: #fff;
+	background-color: #000;
+}
+
+.top-nav>.open>.dropdown-menu {
+	float: left;
+	position: absolute;
+	margin-top: 0;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	background-color: #fff;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+	white-space: normal;
+}
+
+ul.message-dropdown {
+	padding: 0;
+	max-height: 250px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+li.message-preview {
+	width: 275px;
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+li.message-preview>a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+li.message-footer {
+	margin: 5px 0;
+}
+
+ul.alert-dropdown {
+	width: 200px;
+}
+/* Side Navigation */
+
+$sidebar_w:225px;
+
+@media(min-width:768px) {	
+	
+	.side-nav {
+		position: fixed;
+		top: 51px;
+		left: $sidebar_w;
+		width: $sidebar_w;
+		margin-left: -$sidebar_w;
+		border: none;
+		border-radius: 0;
+		overflow-y: auto;
+		background-color: #2a76f4;
+		background-color: #5E35B1;
+		bottom: 0;
+		overflow-x: hidden;
+		padding-bottom: 40px;
+	}
+	.side-nav>li>a {
+		width: $sidebar_w;
+	}
+	.side-nav li a:hover,
+	.side-nav li a:focus {
+		outline: none;
+		background-color: #000 !important;
+	}
+}
+
+.side-nav>li>ul {
+	padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+	display: block;
+	padding: 10px 15px 10px 38px;
+	text-decoration: none;
+	color: #999;
+}
+
+.side-nav>li>ul>li>a:hover {
+	color: #fff;
+}
+
+/************************* Panels *****************************/
+
+$colorWhite: #fff;
+$colorBlack: #000;
+$colorGreen: #26bb65;
+$colorRed: #d9452f;
+$colorYellow: #e89e00;
+$colorPinky: #E91E63;
+$colorPurple: #9C27B0;
+$colorBlue: #337ab7;
+
+@mixin GenerateClass($colorName,$colorLight,$colorFG:$colorWhite){ 
+	.BG-#{$colorName}{
+		background-color: $colorLight;
+		border-radius: 6px;
+		box-shadow: 2px 3px 6px;
+		padding: 8px;
+		
+		& small{
+			color: #CCC;
+		}
+	}
+	.panel-#{$colorName} {
+		border-color: $colorLight;
+		&> .panel-heading {
+			border-color: $colorLight;
+			background-color: $colorLight;
+			color: $colorFG;
+		}
+		& > a {
+			color: $colorLight;
+		}
+		& > a:hover {
+			color: darken($colorLight,10%);
+		}
+	}
+}
+
+@include GenerateClass("yellow",$colorYellow);
+@include GenerateClass("pinky",$colorPinky);
+@include GenerateClass("purple",$colorPurple);
+@include GenerateClass("green",$colorGreen);
+@include GenerateClass("red",$colorRed);
+@include GenerateClass("blue",$colorBlue);
+
+/* khatam ************************ Panels *****************************/
+
+.maroon {
+	font-weight: bold;
+	color: #D1C4E9 !important;
+}
+
+.margin-b10 {
+	margin-bottom: 10px;
+}
+
+.clearBoth {
+	clear: both !important;
+}
+
+.botNav{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #FFF ;
+	box-shadow: 3px -3px 3px;	
+}
+
+.botNav span{
+	vertical-align: top;
+}
