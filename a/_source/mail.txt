@@ -1,4 +1,4 @@
---The header should be replaced by the Company Logo that was given by me earlier
+//--The header should be replaced by the Company Logo that was given by me earlier
 
 --Login screen is pending
 
