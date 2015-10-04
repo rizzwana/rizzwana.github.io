@@ -251,3 +251,7 @@ ul.alert-dropdown {
     color: #333; }
   .botNav a {
     color: #CCC; }
+
+.logoContainer img {
+  width: 130px;
+  height: auto; }
