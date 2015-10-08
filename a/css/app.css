@@ -129,14 +129,14 @@ ul.alert-dropdown {
   .panel-yellow > .panel-heading {
     border-color: #e89e00;
     background-color: #e89e00;
-    color: white; }
+    color: #fff; }
   .panel-yellow > a {
     color: #e89e00; }
   .panel-yellow > a:hover {
     color: #b57b00; }
 
 .BG-pinky {
-  background-color: #e91e63;
+  background-color: #E91E63;
   border-radius: 6px;
   box-shadow: 2px 3px 6px;
   padding: 8px; }
@@ -144,18 +144,18 @@ ul.alert-dropdown {
     color: #FFF; }
 
 .panel-pinky {
-  border-color: #e91e63; }
+  border-color: #E91E63; }
   .panel-pinky > .panel-heading {
-    border-color: #e91e63;
-    background-color: #e91e63;
-    color: white; }
+    border-color: #E91E63;
+    background-color: #E91E63;
+    color: #fff; }
   .panel-pinky > a {
-    color: #e91e63; }
+    color: #E91E63; }
   .panel-pinky > a:hover {
     color: #c1134e; }
 
 .BG-purple {
-  background-color: #9c27b0;
+  background-color: #9C27B0;
   border-radius: 6px;
   box-shadow: 2px 3px 6px;
   padding: 8px; }
@@ -163,13 +163,13 @@ ul.alert-dropdown {
     color: #FFF; }
 
 .panel-purple {
-  border-color: #9c27b0; }
+  border-color: #9C27B0; }
   .panel-purple > .panel-heading {
-    border-color: #9c27b0;
-    background-color: #9c27b0;
-    color: white; }
+    border-color: #9C27B0;
+    background-color: #9C27B0;
+    color: #fff; }
   .panel-purple > a {
-    color: #9c27b0; }
+    color: #9C27B0; }
   .panel-purple > a:hover {
     color: #771e86; }
 
@@ -186,7 +186,7 @@ ul.alert-dropdown {
   .panel-green > .panel-heading {
     border-color: #26bb65;
     background-color: #26bb65;
-    color: white; }
+    color: #fff; }
   .panel-green > a {
     color: #26bb65; }
   .panel-green > a:hover {
@@ -205,7 +205,7 @@ ul.alert-dropdown {
   .panel-red > .panel-heading {
     border-color: #d9452f;
     background-color: #d9452f;
-    color: white; }
+    color: #fff; }
   .panel-red > a {
     color: #d9452f; }
   .panel-red > a:hover {
@@ -224,7 +224,7 @@ ul.alert-dropdown {
   .panel-blue > .panel-heading {
     border-color: #337ab7;
     background-color: #337ab7;
-    color: white; }
+    color: #fff; }
   .panel-blue > a {
     color: #337ab7; }
   .panel-blue > a:hover {
@@ -244,7 +244,7 @@ ul.alert-dropdown {
 .botNav {
   padding-top: 10px;
   padding-bottom: 5px;
-  color: white;
+  color: #FFF;
   box-shadow: 3px -3px 3px; }
   .botNav span {
     vertical-align: top;
@@ -255,3 +255,5 @@ ul.alert-dropdown {
 .logoContainer img {
   width: 130px;
   height: auto; }
+
+/*# sourceMappingURL=app.css.map */
