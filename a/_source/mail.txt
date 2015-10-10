@@ -7,3 +7,6 @@
 I feel that the left hand side can be shown a horizontal tiles with different colors rather than a continuous image, this will make it easier for the users to click appropriate icon
 
 Add once more icon for View Layout, the layout images are attached for your reference
+
+
+--The controls should only be in the single screen video. 2, 3, 4 screens layout to only have basic video
