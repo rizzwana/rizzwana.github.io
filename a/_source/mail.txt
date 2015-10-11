@@ -1,8 +1,8 @@
 //--The header should be replaced by the Company Logo that was given by me earlier
 
---Login screen is pending
+//--Login screen is pending
 
---I suppose the left hand side icons will be in the main screen and the right hand screen is the new screen that will be opened when clicked on specific icon, am I right? If so, the headers can be removed as the (such as Live View,  Remote Playback etc.,) to save space
+//--I suppose the left hand side icons will be in the main screen and the right hand screen is the new screen that will be opened when clicked on specific icon, am I right? If so, the headers can be removed as the (such as Live View,  Remote Playback etc.,) to save space
 
 I feel that the left hand side can be shown a horizontal tiles with different colors rather than a continuous image, this will make it easier for the users to click appropriate icon
 
@@ -10,3 +10,4 @@ Add once more icon for View Layout, the layout images are attached for your refe
 
 
 --The controls should only be in the single screen video. 2, 3, 4 screens layout to only have basic video
+
